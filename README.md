@@ -1,0 +1,1 @@
+This repository demonstrates a potential integer overflow bug in a Scala method. The bug occurs when adding two integers that result in a value outside the representable range of `Int`. The solution addresses the overflow by using `BigInt` to handle arbitrarily large integers, preventing unexpected results.
